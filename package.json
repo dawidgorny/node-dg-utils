@@ -23,6 +23,7 @@
   "devDependencies": {
     "@types/mocha": "2.2.*",
     "@types/node": "6.0.*",
+    "optimist": "^0.6.1",
     "typings": "^2.1.1"
   },
   "typings": "./index.d.ts",
