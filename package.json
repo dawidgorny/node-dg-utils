@@ -1,0 +1,35 @@
+{
+  "name": "dg-utils",
+  "version": "0.1.1",
+  "description": "",
+  "main": "./index.js",
+  "scripts": {
+    "build": "tsc --declaration",
+    "clean": "rm -rf build node_modules *.js *.d.ts"
+  },
+  "keywords": [],
+  "author": "Dawid Górny <hello@dawidgorny.com>",
+  "contributors": [],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dawidgorny/node-dg-utils.git"
+  },
+  "bugs": {
+    "url": "https://github.com/dawidgorny/node-dg-utils/issues"
+  },
+  "homepage": "https://github.com/dawidgorny/node-dg-utils",
+  "license": "Apache-2.0",
+  "dependencies": {},
+  "devDependencies": {
+    "@types/mocha": "2.2.*",
+    "@types/node": "6.0.*",
+    "typings": "^2.1.1"
+  },
+  "typings": "./index.d.ts",
+  "directories": {
+    "lib": "."
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  }
+}
