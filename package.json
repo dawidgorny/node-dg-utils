@@ -19,7 +19,9 @@
   },
   "homepage": "https://github.com/dawidgorny/node-dg-utils",
   "license": "Apache-2.0",
-  "dependencies": {},
+  "dependencies": {
+    "domready": "*"
+  },
   "devDependencies": {
     "@types/mocha": "2.2.*",
     "@types/node": "6.0.*",
